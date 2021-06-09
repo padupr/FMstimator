@@ -1,0 +1,4 @@
+---
+make_git_storable: false
+libfaketime: '/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1'
+

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE vm SYSTEM "vm.dtd">
+<vm name="EXAMPLE" root="" commit="before">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>root</outputString>
+      <prefix/>
+      <postfix/>
+      <impliedOptions/>
+      <excludedOptions/>
+      <optional>False</optional>
+    </configurationOption>
+    
+    <configurationOption>
+      <name>encryption</name>
+      <outputString>encryption</outputString>
+      <parent>root</parent>
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+        <path>main.cpp</path>
+        <start>
+          <line>13</line>
+          <column>3</column>
+        </start>
+        <end>
+          <line>14</line>
+          <column>80</column>
+        </end>
+      </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>compression</name>
+      <outputString>compression</outputString>
+      <impliedOptions/>
+      <excludedOptions/>
+      <optional>True</optional>
+      <locations>
+        <sourceRange>
+        <path>main.cpp</path>
+        <start>
+          <line>15</line>
+          <column>3</column>
+        </start>
+        <end>
+          <line>17</line>
+          <column>86</column>
+        </end>
+      </sourceRange>
+      </locations>
+    </configurationOption>
+  </binaryOptions>
+</vm>

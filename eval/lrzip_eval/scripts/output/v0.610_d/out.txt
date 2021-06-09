@@ -1,0 +1,89 @@
+Start forward:
+    compressionBzip2 ||  main.c:545:4-545:41 || control.flags |= FLAG_BZIP2_COMPRESS;
+ compressionDisabled ||  main.c:594:4-594:38 || control.flags |= FLAG_NO_COMPRESS;
+     compressionGzip ||  main.c:566:4-566:40 || control.flags |= FLAG_ZLIB_COMPRESS;
+      compressionLzo ||  main.c:584:4-584:39 || control.flags |= FLAG_LZO_COMPRESS;
+     compressionZpaq ||  main.c:663:4-663:40 || control.flags |= FLAG_ZPAQ_COMPRESS;
+               level ||  main.c:587:4-587:45 || control.compression_level = atoi(optarg);
+       maxWindowSize ||  main.c:658:4-658:34 || control.window = atol(optarg);
+      processorCount ||  main.c:618:4-618:35 || control.threads = atoi(optarg);
+thresholdTestingDisabled ||  main.c:638:4-638:40 || control.flags &= ~FLAG_THRESHOLD;
+
+Got forward:
+
+Start backward:
+    compressionBzip2 ||  main.c:339:4-339:42 || control->flags |= FLAG_BZIP2_COMPRESS;
+ compressionDisabled ||  main.c:402:4-402:39 || control->flags |= FLAG_NO_COMPRESS;
+     compressionGzip ||  main.c:366:4-366:41 || control->flags |= FLAG_ZLIB_COMPRESS;
+      compressionLzo ||  main.c:389:4-389:40 || control->flags |= FLAG_LZO_COMPRESS;
+     compressionZpaq ||  main.c:486:4-486:41 || control->flags |= FLAG_ZPAQ_COMPRESS;
+               level ||  main.c:392:4-392:46 || control->compression_level = atoi(optarg);
+       maxWindowSize ||  main.c:481:4-481:35 || control->window = atol(optarg);
+      processorCount ||  main.c:430:4-430:36 || control->threads = atoi(optarg);
+thresholdTestingDisabled ||  main.c:460:4-460:38 || control->flags &= ~FLAG_THRESHOLD;
+
+Got backward:
+    compressionBzip2 ||  main.c:224:4-224:42 || control->flags |= FLAG_BZIP2_COMPRESS;
+ compressionDisabled ||  main.c:273:4-273:39 || control->flags |= FLAG_NO_COMPRESS;
+     compressionGzip ||  main.c:245:4-245:41 || control->flags |= FLAG_ZLIB_COMPRESS;
+      compressionLzo ||  main.c:263:4-263:40 || control->flags |= FLAG_LZO_COMPRESS;
+     compressionZpaq ||  main.c:349:4-349:41 || control->flags |= FLAG_ZPAQ_COMPRESS;
+               level ||  main.c:266:4-266:46 || control->compression_level = atoi(optarg);
+       maxWindowSize ||  main.c:344:4-344:35 || control->window = atol(optarg);
+      processorCount ||  main.c:302:4-302:36 || control->threads = atoi(optarg);
+thresholdTestingDisabled ||  main.c:325:4-325:38 || control->flags &= ~FLAG_THRESHOLD;
+
+Model_before approximated: 
+- root
+|- compression
+||-<Group property>
+|||- compressionLzma
+
+Model_after approximated: 
+- root
+|- compression
+||-<Group property>
+|||- compressionLzma
+|||- compressionGzip
+|||- compressionBzip2
+|||- compressionLzo
+|||- compressionZpaq
+|||- compressionDisabled
+|- thresholdTestingDisabled
+|- level
+|- maxWindowSize
+|- processorCount
+
+Merged model:
+- root
+|- compression
+||-<Group property>
+|||- compressionLzma
+|||- compressionGzip
+|||- compressionBzip2
+|||- compressionLzo
+|||- compressionZpaq
+|||- compressionDisabled
+|- maxWindowSize
+|- processorCount
+|- level
+|- thresholdTestingDisabled
+
+Stats:
+    Diffs backward      : 1
+    Diffs forward       : 1
+    Features_backwards_end: 9
+    Features_backwards_start: 9
+    Features_forward_end: 0
+    Features_forward_start: 9
+    H1 a USES           : 18
+    H1 b SUCC           : 9
+    H1 c FAIL           : 9
+    H2 a USES           : 9
+    H2 c FAIL           : 9
+    H3 a USES           : 9
+    H3 c FAIL           : 9
+    Merging_features    : 9
+    Merging_success     : True
+Latex: 1 & 1 & ??? & 9 & 9 & 0 & 9 & 0 & 9
+

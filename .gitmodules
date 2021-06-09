@@ -1,0 +1,18 @@
+[submodule "eval/seamcarving_eval/repo"]
+	path = eval/seamcarving_eval/repo
+	url = git@github.com:padupr/seamcarving.git
+[submodule "eval/grep_eval/repo"]
+	path = eval/grep_eval/repo
+	url = git://git.savannah.gnu.org/grep.git
+[submodule "eval/curl_eval/repo"]
+	path = eval/curl_eval/repo
+	url = git@github.com:curl/curl.git
+[submodule "eval/libvpx_eval/repo"]
+	path = eval/libvpx_eval/repo
+	url = https://chromium.googlesource.com/webm/libvpx
+[submodule "eval/lrzip_eval/repo"]
+	path = eval/lrzip_eval/repo
+	url = https://github.com/ckolivas/lrzip.git
+[submodule "vara-feature"]
+	path = vara-feature
+	url = git@github.com:se-sic/vara-feature.git

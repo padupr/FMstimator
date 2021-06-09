@@ -1,0 +1,80 @@
+Start forward:
+          horizontal ||  Main.cpp:30:7-30:24 || vertical = false;
+            vertical ||  Main.cpp:33:7-33:23 || vertical = true;
+        dualGradient ||  Main.cpp:46:9-46:39 || energy = Energy::dualGradient;
+            gradient ||  Main.cpp:44:9-44:35 || energy = Energy::gradient;
+             logging ||  Main.cpp:27:7-27:22 || logging = true;
+
+Got forward:
+          horizontal ||  main.cpp:33:7-33:24 || vertical = false;
+            vertical ||  main.cpp:36:7-36:23 || vertical = true;
+        dualGradient ||  main.cpp:49:9-49:39 || energy = Energy::dualGradient;
+            gradient ||  main.cpp:47:9-47:35 || energy = Energy::gradient;
+             logging ||  main.cpp:30:7-30:22 || logging = true;
+
+Start backward:
+          horizontal || main.cpp:39:13-39:30 || vertical = false;
+            vertical || main.cpp:42:13-42:29 || vertical = true;
+            gradient || main.cpp:53:17-53:43 || energy = Energy::gradient;
+               sobel || main.cpp:55:17-55:40 || energy = Energy::sobel;
+             logging || main.cpp:31:13-31:41 || logging = std::stoi(optarg);
+
+Got backward:
+          horizontal ||  main.cpp:33:7-33:24 || vertical = false;
+            vertical ||  main.cpp:23:8-23:24 || vertical = true;
+            gradient || main.cpp:25:10-25:36 || energy = Energy::gradient;
+
+Model_before approximated: 
+- root
+|- logging
+|- direction
+||-<Group property>
+|||- vertical
+|||- horizontal
+|- energy
+||-<Group property>
+|||- gradient
+|||- dualGradient
+
+Model_after approximated: 
+- root
+|- direction
+||-<Group property>
+|||- vertical
+|||- horizontal
+|- energy
+||-<Group property>
+|||- gradient
+
+Merged model:
+- root
+|- direction
+||-<Group property>
+|||- vertical
+|||- horizontal
+|- logging
+|- energy
+||-<Group property>
+|||- dualGradient
+|||- gradient
+
+Stats:
+    Diffs backward      : 1
+    Diffs forward       : 1
+    Features_backwards_end: 3
+    Features_backwards_start: 5
+    Features_forward_end: 5
+    Features_forward_start: 5
+    H1 a USES           : 10
+    H1 b SUCC           : 5
+    H1 c FAIL           : 5
+    H2 a USES           : 5
+    H2 b SUCC           : 3
+    H2 c FAIL           : 2
+    H3 a USES           : 5
+    H3 b SUCC           : 3
+    H3 c FAIL           : 2
+    Merging_features    : 5
+    Merging_success     : True
+Latex: 1 & 1 & ??? & 5 & 5 & 3 & 2 & 3 & 2
+

@@ -1,0 +1,489 @@
+INFO:__main__:Phase 1: Preparation
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/lrzip_eval/feature_models/FeatureModel_v0.600.xml
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/lrzip_eval/feature_models/FeatureModel_v0.630.xml
+INFO:root:Phase 2: Tracking
+INFO:__main__:Tracking changes 582c1c859fdaf6cd8a48411f241372afd3bb5ecc -> 585113d42db96e3f6a535eaa87e4ca115f9d7758
+INFO:__main__:Checking for changes in feature: compressionBzip2
+INFO:__main__:Location is main.c:545:4-545:41
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Note: switching to '582c1c859fdaf6cd8a48411f241372afd3bb5ecc'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 582c1c8 Add liblrzip to TODO.
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./lrzip_private.h:76:14: error: redeclaration of 'sys_errlist' with a different type: 'char *[]' vs 'const char *const []'
+WARNING:__main__:Clang diagnostic: main.c:149:17: warning: implicit declaration of function 'sysconf' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:149:25: error: use of undeclared identifier '_SC_PHYS_PAGES'
+WARNING:__main__:Clang diagnostic: main.c:173:37: error: use of undeclared identifier 'PACKAGE_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:217:32: error: expected ')'
+WARNING:__main__:Clang diagnostic: main.c:321:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:322:4: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:334:7: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:336:15: warning: implicitly declaring library function 'strtok' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:340:7: warning: implicitly declaring library function 'isspace' with type 'int (int)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:351:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:393:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:488:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:497:6: warning: implicitly declaring library function 'strstr' with type 'char *(const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:510:15: warning: implicit declaration of function 'gettimeofday' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:540:14: warning: implicit declaration of function 'getopt' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:587:37: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:597:28: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:604:22: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:610:35: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:613:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:15: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:29: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:618:27: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:628:21: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:654:5: error: use of undeclared identifier 'LRZIP_MAJOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:26: error: use of undeclared identifier 'LRZIP_MINOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:47: error: use of undeclared identifier 'LRZIP_MINOR_SUBVERSION'
+WARNING:__main__:Clang diagnostic: main.c:658:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:706:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:706:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:709:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:709:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:748:17: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+Previous HEAD position was 582c1c8 Add liblrzip to TODO.
+HEAD is now at 585113d Bump version to 0.614
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost compressionBzip2 location main.c:545:4-545:41 from 582c1c859fdaf6cd8a48411f241372afd3bb5ecc by Con Kolivas to 585113d42db96e3f6a535eaa87e4ca115f9d7758 by Con Kolivas
+INFO:__main__:Checking for changes in feature: compressionDisabled
+INFO:__main__:Location is main.c:594:4-594:38
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 585113d Bump version to 0.614
+HEAD is now at 582c1c8 Add liblrzip to TODO.
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./lrzip_private.h:76:14: error: redeclaration of 'sys_errlist' with a different type: 'char *[]' vs 'const char *const []'
+WARNING:__main__:Clang diagnostic: main.c:149:17: warning: implicit declaration of function 'sysconf' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:149:25: error: use of undeclared identifier '_SC_PHYS_PAGES'
+WARNING:__main__:Clang diagnostic: main.c:173:37: error: use of undeclared identifier 'PACKAGE_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:217:32: error: expected ')'
+WARNING:__main__:Clang diagnostic: main.c:321:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:322:4: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:334:7: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:336:15: warning: implicitly declaring library function 'strtok' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:340:7: warning: implicitly declaring library function 'isspace' with type 'int (int)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:351:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:393:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:488:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:497:6: warning: implicitly declaring library function 'strstr' with type 'char *(const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:510:15: warning: implicit declaration of function 'gettimeofday' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:540:14: warning: implicit declaration of function 'getopt' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:587:37: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:597:28: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:604:22: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:610:35: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:613:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:15: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:29: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:618:27: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:628:21: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:654:5: error: use of undeclared identifier 'LRZIP_MAJOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:26: error: use of undeclared identifier 'LRZIP_MINOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:47: error: use of undeclared identifier 'LRZIP_MINOR_SUBVERSION'
+WARNING:__main__:Clang diagnostic: main.c:658:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:706:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:706:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:709:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:709:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:748:17: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+Previous HEAD position was 582c1c8 Add liblrzip to TODO.
+HEAD is now at 585113d Bump version to 0.614
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost compressionDisabled location main.c:594:4-594:38 from 582c1c859fdaf6cd8a48411f241372afd3bb5ecc by Con Kolivas to 585113d42db96e3f6a535eaa87e4ca115f9d7758 by Con Kolivas
+INFO:__main__:Checking for changes in feature: compressionGzip
+INFO:__main__:Location is main.c:566:4-566:40
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 585113d Bump version to 0.614
+HEAD is now at 582c1c8 Add liblrzip to TODO.
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./lrzip_private.h:76:14: error: redeclaration of 'sys_errlist' with a different type: 'char *[]' vs 'const char *const []'
+WARNING:__main__:Clang diagnostic: main.c:149:17: warning: implicit declaration of function 'sysconf' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:149:25: error: use of undeclared identifier '_SC_PHYS_PAGES'
+WARNING:__main__:Clang diagnostic: main.c:173:37: error: use of undeclared identifier 'PACKAGE_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:217:32: error: expected ')'
+WARNING:__main__:Clang diagnostic: main.c:321:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:322:4: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:334:7: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:336:15: warning: implicitly declaring library function 'strtok' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:340:7: warning: implicitly declaring library function 'isspace' with type 'int (int)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:351:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:393:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:488:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:497:6: warning: implicitly declaring library function 'strstr' with type 'char *(const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:510:15: warning: implicit declaration of function 'gettimeofday' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:540:14: warning: implicit declaration of function 'getopt' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:587:37: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:597:28: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:604:22: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:610:35: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:613:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:15: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:29: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:618:27: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:628:21: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:654:5: error: use of undeclared identifier 'LRZIP_MAJOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:26: error: use of undeclared identifier 'LRZIP_MINOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:47: error: use of undeclared identifier 'LRZIP_MINOR_SUBVERSION'
+WARNING:__main__:Clang diagnostic: main.c:658:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:706:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:706:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:709:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:709:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:748:17: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+Previous HEAD position was 582c1c8 Add liblrzip to TODO.
+HEAD is now at 585113d Bump version to 0.614
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost compressionGzip location main.c:566:4-566:40 from 582c1c859fdaf6cd8a48411f241372afd3bb5ecc by Con Kolivas to 585113d42db96e3f6a535eaa87e4ca115f9d7758 by Con Kolivas
+INFO:__main__:Checking for changes in feature: compressionLzo
+INFO:__main__:Location is main.c:584:4-584:39
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 585113d Bump version to 0.614
+HEAD is now at 582c1c8 Add liblrzip to TODO.
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./lrzip_private.h:76:14: error: redeclaration of 'sys_errlist' with a different type: 'char *[]' vs 'const char *const []'
+WARNING:__main__:Clang diagnostic: main.c:149:17: warning: implicit declaration of function 'sysconf' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:149:25: error: use of undeclared identifier '_SC_PHYS_PAGES'
+WARNING:__main__:Clang diagnostic: main.c:173:37: error: use of undeclared identifier 'PACKAGE_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:217:32: error: expected ')'
+WARNING:__main__:Clang diagnostic: main.c:321:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:322:4: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:334:7: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:336:15: warning: implicitly declaring library function 'strtok' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:340:7: warning: implicitly declaring library function 'isspace' with type 'int (int)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:351:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:393:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:488:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:497:6: warning: implicitly declaring library function 'strstr' with type 'char *(const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:510:15: warning: implicit declaration of function 'gettimeofday' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:540:14: warning: implicit declaration of function 'getopt' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:587:37: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:597:28: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:604:22: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:610:35: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:613:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:15: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:29: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:618:27: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:628:21: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:654:5: error: use of undeclared identifier 'LRZIP_MAJOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:26: error: use of undeclared identifier 'LRZIP_MINOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:47: error: use of undeclared identifier 'LRZIP_MINOR_SUBVERSION'
+WARNING:__main__:Clang diagnostic: main.c:658:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:706:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:706:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:709:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:709:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:748:17: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+Previous HEAD position was 582c1c8 Add liblrzip to TODO.
+HEAD is now at 585113d Bump version to 0.614
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost compressionLzo location main.c:584:4-584:39 from 582c1c859fdaf6cd8a48411f241372afd3bb5ecc by Con Kolivas to 585113d42db96e3f6a535eaa87e4ca115f9d7758 by Con Kolivas
+INFO:__main__:Checking for changes in feature: compressionZpaq
+INFO:__main__:Location is main.c:663:4-663:40
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 585113d Bump version to 0.614
+HEAD is now at 582c1c8 Add liblrzip to TODO.
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./lrzip_private.h:76:14: error: redeclaration of 'sys_errlist' with a different type: 'char *[]' vs 'const char *const []'
+WARNING:__main__:Clang diagnostic: main.c:149:17: warning: implicit declaration of function 'sysconf' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:149:25: error: use of undeclared identifier '_SC_PHYS_PAGES'
+WARNING:__main__:Clang diagnostic: main.c:173:37: error: use of undeclared identifier 'PACKAGE_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:217:32: error: expected ')'
+WARNING:__main__:Clang diagnostic: main.c:321:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:322:4: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:334:7: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:336:15: warning: implicitly declaring library function 'strtok' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:340:7: warning: implicitly declaring library function 'isspace' with type 'int (int)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:351:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:393:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:488:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:497:6: warning: implicitly declaring library function 'strstr' with type 'char *(const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:510:15: warning: implicit declaration of function 'gettimeofday' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:540:14: warning: implicit declaration of function 'getopt' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:587:37: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:597:28: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:604:22: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:610:35: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:613:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:15: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:29: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:618:27: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:628:21: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:654:5: error: use of undeclared identifier 'LRZIP_MAJOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:26: error: use of undeclared identifier 'LRZIP_MINOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:47: error: use of undeclared identifier 'LRZIP_MINOR_SUBVERSION'
+WARNING:__main__:Clang diagnostic: main.c:658:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:706:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:706:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:709:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:709:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:748:17: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+Previous HEAD position was 582c1c8 Add liblrzip to TODO.
+HEAD is now at 585113d Bump version to 0.614
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost compressionZpaq location main.c:663:4-663:40 from 582c1c859fdaf6cd8a48411f241372afd3bb5ecc by Con Kolivas to 585113d42db96e3f6a535eaa87e4ca115f9d7758 by Con Kolivas
+INFO:__main__:Checking for changes in feature: level
+INFO:__main__:Location is main.c:587:4-587:45
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 585113d Bump version to 0.614
+HEAD is now at 582c1c8 Add liblrzip to TODO.
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./lrzip_private.h:76:14: error: redeclaration of 'sys_errlist' with a different type: 'char *[]' vs 'const char *const []'
+WARNING:__main__:Clang diagnostic: main.c:149:17: warning: implicit declaration of function 'sysconf' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:149:25: error: use of undeclared identifier '_SC_PHYS_PAGES'
+WARNING:__main__:Clang diagnostic: main.c:173:37: error: use of undeclared identifier 'PACKAGE_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:217:32: error: expected ')'
+WARNING:__main__:Clang diagnostic: main.c:321:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:322:4: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:334:7: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:336:15: warning: implicitly declaring library function 'strtok' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:340:7: warning: implicitly declaring library function 'isspace' with type 'int (int)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:351:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:393:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:488:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:497:6: warning: implicitly declaring library function 'strstr' with type 'char *(const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:510:15: warning: implicit declaration of function 'gettimeofday' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:540:14: warning: implicit declaration of function 'getopt' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:587:37: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:597:28: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:604:22: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:610:35: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:613:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:15: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:29: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:618:27: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:628:21: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:654:5: error: use of undeclared identifier 'LRZIP_MAJOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:26: error: use of undeclared identifier 'LRZIP_MINOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:47: error: use of undeclared identifier 'LRZIP_MINOR_SUBVERSION'
+WARNING:__main__:Clang diagnostic: main.c:658:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:706:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:706:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:709:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:709:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:748:17: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost level location main.c:587:4-587:45 from 582c1c859fdaf6cd8a48411f241372afd3bb5ecc by Con Kolivas to 585113d42db96e3f6a535eaa87e4ca115f9d7758 by Con Kolivas
+INFO:__main__:Checking for changes in feature: maxWindowSize
+INFO:__main__:Location is main.c:658:4-658:34
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+HEAD is now at 582c1c8 Add liblrzip to TODO.
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./lrzip_private.h:76:14: error: redeclaration of 'sys_errlist' with a different type: 'char *[]' vs 'const char *const []'
+WARNING:__main__:Clang diagnostic: main.c:149:17: warning: implicit declaration of function 'sysconf' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:149:25: error: use of undeclared identifier '_SC_PHYS_PAGES'
+WARNING:__main__:Clang diagnostic: main.c:173:37: error: use of undeclared identifier 'PACKAGE_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:217:32: error: expected ')'
+WARNING:__main__:Clang diagnostic: main.c:321:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:322:4: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:334:7: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:336:15: warning: implicitly declaring library function 'strtok' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:340:7: warning: implicitly declaring library function 'isspace' with type 'int (int)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:351:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:393:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:488:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:497:6: warning: implicitly declaring library function 'strstr' with type 'char *(const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:510:15: warning: implicit declaration of function 'gettimeofday' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:540:14: warning: implicit declaration of function 'getopt' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:587:37: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:597:28: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:604:22: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:610:35: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:613:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:15: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:29: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:618:27: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:628:21: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:654:5: error: use of undeclared identifier 'LRZIP_MAJOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:26: error: use of undeclared identifier 'LRZIP_MINOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:47: error: use of undeclared identifier 'LRZIP_MINOR_SUBVERSION'
+WARNING:__main__:Clang diagnostic: main.c:658:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:706:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:706:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:709:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:709:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:748:17: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost maxWindowSize location main.c:658:4-658:34 from 582c1c859fdaf6cd8a48411f241372afd3bb5ecc by Con Kolivas to 585113d42db96e3f6a535eaa87e4ca115f9d7758 by Con Kolivas
+INFO:__main__:Checking for changes in feature: processorCount
+INFO:__main__:Location is main.c:618:4-618:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+HEAD is now at 582c1c8 Add liblrzip to TODO.
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./lrzip_private.h:76:14: error: redeclaration of 'sys_errlist' with a different type: 'char *[]' vs 'const char *const []'
+WARNING:__main__:Clang diagnostic: main.c:149:17: warning: implicit declaration of function 'sysconf' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:149:25: error: use of undeclared identifier '_SC_PHYS_PAGES'
+WARNING:__main__:Clang diagnostic: main.c:173:37: error: use of undeclared identifier 'PACKAGE_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:217:32: error: expected ')'
+WARNING:__main__:Clang diagnostic: main.c:321:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:322:4: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:334:7: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:336:15: warning: implicitly declaring library function 'strtok' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:340:7: warning: implicitly declaring library function 'isspace' with type 'int (int)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:351:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:393:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:488:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:497:6: warning: implicitly declaring library function 'strstr' with type 'char *(const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:510:15: warning: implicit declaration of function 'gettimeofday' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:540:14: warning: implicit declaration of function 'getopt' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:587:37: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:597:28: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:604:22: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:610:35: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:613:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:15: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:29: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:618:27: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:628:21: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:654:5: error: use of undeclared identifier 'LRZIP_MAJOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:26: error: use of undeclared identifier 'LRZIP_MINOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:47: error: use of undeclared identifier 'LRZIP_MINOR_SUBVERSION'
+WARNING:__main__:Clang diagnostic: main.c:658:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:706:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:706:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:709:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:709:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:748:17: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost processorCount location main.c:618:4-618:35 from 582c1c859fdaf6cd8a48411f241372afd3bb5ecc by Con Kolivas to 585113d42db96e3f6a535eaa87e4ca115f9d7758 by Con Kolivas
+INFO:__main__:Checking for changes in feature: thresholdTestingDisabled
+INFO:__main__:Location is main.c:638:4-638:40
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+HEAD is now at 582c1c8 Add liblrzip to TODO.
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./lrzip_private.h:76:14: error: redeclaration of 'sys_errlist' with a different type: 'char *[]' vs 'const char *const []'
+WARNING:__main__:Clang diagnostic: main.c:149:17: warning: implicit declaration of function 'sysconf' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:149:25: error: use of undeclared identifier '_SC_PHYS_PAGES'
+WARNING:__main__:Clang diagnostic: main.c:173:37: error: use of undeclared identifier 'PACKAGE_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:217:32: error: expected ')'
+WARNING:__main__:Clang diagnostic: main.c:321:4: warning: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:322:4: warning: implicitly declaring library function 'strcat' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:334:7: warning: implicitly declaring library function 'strlen' with type 'unsigned long (const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:336:15: warning: implicitly declaring library function 'strtok' with type 'char *(char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:340:7: warning: implicitly declaring library function 'isspace' with type 'int (int)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:351:7: warning: implicitly declaring library function 'strcasecmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:393:8: warning: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:488:2: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:497:6: warning: implicitly declaring library function 'strstr' with type 'char *(const char *, const char *)' [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:510:15: warning: implicit declaration of function 'gettimeofday' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:540:14: warning: implicit declaration of function 'getopt' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:587:37: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:597:28: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:604:22: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:610:35: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:613:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:15: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:614:29: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:618:27: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:628:21: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:654:5: error: use of undeclared identifier 'LRZIP_MAJOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:26: error: use of undeclared identifier 'LRZIP_MINOR_VERSION'
+WARNING:__main__:Clang diagnostic: main.c:654:47: error: use of undeclared identifier 'LRZIP_MINOR_SUBVERSION'
+WARNING:__main__:Clang diagnostic: main.c:658:26: error: use of undeclared identifier 'optarg'
+WARNING:__main__:Clang diagnostic: main.c:706:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:706:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:709:16: warning: implicit declaration of function 'setpriority' is invalid in C99 [-Wimplicit-function-declaration]
+WARNING:__main__:Clang diagnostic: main.c:709:28: error: use of undeclared identifier 'PRIO_PROCESS'
+WARNING:__main__:Clang diagnostic: main.c:748:17: warning: implicit declaration of function 'isatty' is invalid in C99 [-Wimplicit-function-declaration]
+Previous HEAD position was 582c1c8 Add liblrzip to TODO.
+HEAD is now at 585113d Bump version to 0.614
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost thresholdTestingDisabled location main.c:638:4-638:40 from 582c1c859fdaf6cd8a48411f241372afd3bb5ecc by Con Kolivas to 585113d42db96e3f6a535eaa87e4ca115f9d7758 by Con Kolivas
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 23ff5f921a6a352442e599d582fe1fda0489c0bc -> 585113d42db96e3f6a535eaa87e4ca115f9d7758
+INFO:__main__:Checking for changes in feature: compressionBzip2
+INFO:__main__:Location is main.c:339:4-339:42
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: compressionDisabled
+INFO:__main__:Location is main.c:402:4-402:39
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: compressionGzip
+INFO:__main__:Location is main.c:366:4-366:41
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: compressionLzo
+INFO:__main__:Location is main.c:389:4-389:40
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: compressionZpaq
+INFO:__main__:Location is main.c:486:4-486:41
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: level
+INFO:__main__:Location is main.c:392:4-392:46
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: maxWindowSize
+INFO:__main__:Location is main.c:481:4-481:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: processorCount
+INFO:__main__:Location is main.c:430:4-430:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: thresholdTestingDisabled
+INFO:__main__:Location is main.c:460:4-460:38
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Phase 3: Merging
+INFO:__main__:Merging success
+INFO:__main__:Writing success: output/v0.614_d/fm_merged_v0.614.xml

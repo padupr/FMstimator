@@ -1,0 +1,206 @@
+INFO:__main__:Phase 1: Preparation
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/grep_eval/feature_models/fm_v2.20.xml
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/grep_eval/feature_models/fm_v3.6.xml
+INFO:root:Phase 2: Tracking
+INFO:__main__:Tracking changes d7979b76388bdb37e75b564671adbb3b7749dcc1 -> b19a5668e71f3f42601a02be6982089e4a182957
+INFO:__main__:Checking for changes in feature: count
+INFO:__main__:Location is src/grep.c:2063:9-2063:27
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Note: switching to 'd7979b76388bdb37e75b564671adbb3b7749dcc1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at d7979b7 version 2.20
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: src/grep.c:21:10: fatal error: 'config.h' file not found
+Previous HEAD position was d7979b7 version 2.20
+HEAD is now at b19a566 version 3.3
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost count location src/grep.c:2063:9-2063:27 from d7979b76388bdb37e75b564671adbb3b7749dcc1 by Jim Meyering to b19a5668e71f3f42601a02be6982089e4a182957 by Jim Meyering
+INFO:__main__:Checking for changes in feature: ignore-case
+INFO:__main__:Location is src/grep.c:2112:9-2112:25
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b19a566 version 3.3
+HEAD is now at d7979b7 version 2.20
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: src/grep.c:21:10: fatal error: 'config.h' file not found
+Previous HEAD position was d7979b7 version 2.20
+HEAD is now at b19a566 version 3.3
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost ignore-case location src/grep.c:2112:9-2112:25 from d7979b76388bdb37e75b564671adbb3b7749dcc1 by Jim Meyering to b19a5668e71f3f42601a02be6982089e4a182957 by Jim Meyering
+INFO:__main__:Checking for changes in feature: invert-match
+INFO:__main__:Location is src/grep.c:2163:9-2163:27
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: line-buffered
+INFO:__main__:Location is src/grep.c:2242:9-2242:27
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b19a566 version 3.3
+HEAD is now at d7979b7 version 2.20
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: src/grep.c:21:10: fatal error: 'config.h' file not found
+Previous HEAD position was d7979b7 version 2.20
+HEAD is now at b19a566 version 3.3
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost line-buffered location src/grep.c:2242:9-2242:27 from d7979b76388bdb37e75b564671adbb3b7749dcc1 by Jim Meyering to b19a5668e71f3f42601a02be6982089e4a182957 by Jim Meyering
+INFO:__main__:Checking for changes in feature: no-message
+INFO:__main__:Location is src/grep.c:2159:9-2159:29
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b19a566 version 3.3
+HEAD is now at d7979b7 version 2.20
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: src/grep.c:21:10: fatal error: 'config.h' file not found
+Previous HEAD position was d7979b7 version 2.20
+HEAD is now at b19a566 version 3.3
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost no-message location src/grep.c:2159:9-2159:29 from d7979b76388bdb37e75b564671adbb3b7749dcc1 by Jim Meyering to b19a5668e71f3f42601a02be6982089e4a182957 by Jim Meyering
+INFO:__main__:Checking for changes in feature: silent
+INFO:__main__:Location is src/grep.c:2146:9-2146:27
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b19a566 version 3.3
+HEAD is now at d7979b7 version 2.20
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: src/grep.c:21:10: fatal error: 'config.h' file not found
+Previous HEAD position was d7979b7 version 2.20
+HEAD is now at b19a566 version 3.3
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost silent location src/grep.c:2146:9-2146:27 from d7979b76388bdb37e75b564671adbb3b7749dcc1 by Jim Meyering to b19a5668e71f3f42601a02be6982089e4a182957 by Jim Meyering
+INFO:__main__:Checking for changes in feature: basic
+INFO:__main__:Location is src/grep.c:2022:9-2022:29
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b19a566 version 3.3
+HEAD is now at d7979b7 version 2.20
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: src/grep.c:21:10: fatal error: 'config.h' file not found
+Previous HEAD position was d7979b7 version 2.20
+HEAD is now at b19a566 version 3.3
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost basic location src/grep.c:2022:9-2022:29 from d7979b76388bdb37e75b564671adbb3b7749dcc1 by Jim Meyering to b19a5668e71f3f42601a02be6982089e4a182957 by Jim Meyering
+INFO:__main__:Checking for changes in feature: extended
+INFO:__main__:Location is src/grep.c:2010:9-2010:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b19a566 version 3.3
+HEAD is now at d7979b7 version 2.20
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: src/grep.c:21:10: fatal error: 'config.h' file not found
+Previous HEAD position was d7979b7 version 2.20
+HEAD is now at b19a566 version 3.3
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost extended location src/grep.c:2010:9-2010:30 from d7979b76388bdb37e75b564671adbb3b7749dcc1 by Jim Meyering to b19a5668e71f3f42601a02be6982089e4a182957 by Jim Meyering
+INFO:__main__:Checking for changes in feature: pearl
+INFO:__main__:Location is src/grep.c:2018:9-2018:29
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b19a566 version 3.3
+HEAD is now at d7979b7 version 2.20
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: src/grep.c:21:10: fatal error: 'config.h' file not found
+Previous HEAD position was d7979b7 version 2.20
+HEAD is now at b19a566 version 3.3
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost pearl location src/grep.c:2018:9-2018:29 from d7979b76388bdb37e75b564671adbb3b7749dcc1 by Jim Meyering to b19a5668e71f3f42601a02be6982089e4a182957 by Jim Meyering
+INFO:__main__:Checking for changes in feature: string
+INFO:__main__:Location is src/grep.c:2014:9-2014:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b19a566 version 3.3
+HEAD is now at d7979b7 version 2.20
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: src/grep.c:21:10: fatal error: 'config.h' file not found
+Previous HEAD position was d7979b7 version 2.20
+HEAD is now at b19a566 version 3.3
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost string location src/grep.c:2014:9-2014:30 from d7979b76388bdb37e75b564671adbb3b7749dcc1 by Jim Meyering to b19a5668e71f3f42601a02be6982089e4a182957 by Jim Meyering
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 54aac0789909618122d7125854c443f26a94f610 -> b19a5668e71f3f42601a02be6982089e4a182957
+INFO:__main__:Checking for changes in feature: count
+INFO:__main__:Location is src/grep.c:2599:9-2599:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: ignore-case
+INFO:__main__:Location is src/grep.c:2664:9-2664:28
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: invert-match
+INFO:__main__:Location is src/grep.c:2719:9-2719:27
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: line-buffered
+INFO:__main__:Location is src/grep.c:2811:9-2811:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: no-message
+INFO:__main__:Location is src/grep.c:2715:9-2715:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: silent
+INFO:__main__:Location is src/grep.c:2702:9-2702:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: basic
+INFO:__main__:Location is src/grep.c:2557:9-2557:48
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: extended
+INFO:__main__:Location is src/grep.c:2545:9-2545:49
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: pearl
+INFO:__main__:Location is src/grep.c:2553:9-2553:48
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: string
+INFO:__main__:Location is src/grep.c:2549:9-2549:49
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Phase 3: Merging
+INFO:__main__:Merging success
+INFO:__main__:Writing success: output/v3.3_d/fm_merged_v3.3.xml

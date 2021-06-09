@@ -1,0 +1,487 @@
+<vm name="curl" root="" commit="curl-7_40_0">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <optional>False</optional>
+    </configurationOption>
+    
+      <configurationOption>
+        <name>http</name>
+        <parent>root</parent>
+        <optional>False</optional>
+      </configurationOption>
+      
+        <configurationOption>
+          <!-- Tells curl to use HTTP version 1.0 instead of  using  its internally preferred HTTP version. -->
+          <name>http1.0</name>
+          <parent>http</parent>
+          <excludedOptions>
+            <options>http2</options>
+            <options>http1.1</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1000</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>1000</line>
+                <column>53</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+        
+        <configurationOption>
+          <!-- Tells curl to use HTTP version 1.1. -->
+          <name>http1.1</name>
+          <parent>http</parent>
+          <excludedOptions>
+            <options>http2</options>
+            <options>http1.0</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1004</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>1004</line>
+                <column>53</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+        
+        <configurationOption>
+          <!-- Tells curl to use HTTP version 2. -->
+          <name>http2</name>
+          <parent>http</parent>
+          <excludedOptions>
+            <options>http1.1</options>
+            <options>http1.0</options>
+          </excludedOptions>
+          <optional>False</optional>
+                <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1008</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>1008</line>
+                <column>53</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+      
+      <configurationOption>
+        <!-- Enable initial response in SASL authentication. -->
+        <name>sasl-ir</name>
+        <parent>root</parent>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/tool_getparam.c</path>
+            <start>
+              <line>971</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>971</line>
+              <column>34</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+      
+      <configurationOption>
+        <!-- Disable the NPN TLS extension. -->
+        <name>no-npn</name>
+        <parent>root</parent>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/tool_getparam.c</path>
+            <start>
+              <line>529</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>529</line>
+              <column>46</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+      
+      <configurationOption>
+        <!-- Disable the ALPN TLS extension. -->
+        <name>no-alpn</name>
+        <parent>root</parent>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/tool_getparam.c</path>
+            <start>
+              <line>539</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>539</line>
+              <column>47</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+      
+      <configurationOption>
+        <!-- Tells  curl  to  use  the  specified  public key file (or hashes) to verify the peer. -->
+        <name>pinnedpubkey</name>
+        <parent>root</parent>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/tool_getparam.c</path>
+            <start>
+              <line>1363</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>1363</line>
+              <column>48</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+      
+      <configurationOption>
+        <name>ipv</name>
+        <parent>root</parent>
+        <optional>True</optional>
+      </configurationOption>
+      
+        <configurationOption>
+          <!-- This option tells curl to resolve names to IPv4 addresses  only, and not for example try IPv6. -->
+          <name>ipv4</name>
+          <parent>ipv</parent>
+          <excludedOptions>
+            <options>ipv6</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1042</line>
+                <column>7</column>
+              </start>
+              <end>
+                <line>1042</line>
+                <column>30</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+        
+        <configurationOption>
+          <!-- This option tells curl to resolve names to IPv6 addresses  only, and not for example try IPv4. -->
+          <name>ipv6</name>
+          <parent>ipv</parent>
+          <excludedOptions>
+            <options>ipv4</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1046</line>
+                <column>7</column>
+              </start>
+              <end>
+                <line>1046</line>
+                <column>30</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+      
+      <configurationOption>
+        <!-- Include  the  HTTP  response headers in the output. -->
+        <name>include</name>
+        <parent>root</parent>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/tool_getparam.c</path>
+            <start>
+              <line>1421</line>
+              <column>7</column>
+            </start>
+            <end>
+              <line>1421</line>
+              <column>40</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+      
+      <configurationOption>
+        <!-- Write the received protocol headers to the  specified file. -->
+        <name>dump-header</name>
+        <parent>root</parent>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/tool_getparam.c</path>
+            <start>
+              <line>1275</line>
+              <column>7</column>
+            </start>
+            <end>
+              <line>1275</line>
+              <column>44</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+      
+      <configurationOption>
+        <!-- Disables  the  use  of keepalive messages on the TCP connection. curl otherwise enables them by default. -->
+        <name>no-keepalive</name>
+        <parent>root</parent>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/tool_getparam.c</path>
+            <start>
+              <line>878</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>878</line>
+              <column>52</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+      
+      <configurationOption>
+        <name>ssl</name>
+        <parent>root</parent>
+        <optional>False</optional>
+      </configurationOption>
+      
+      <configurationOption>
+        <!-- This option tells curl to not work around a security flaw in the SSL3 and TLS1.0 protocols known as BEAST. -->
+        <name>ssl-allow-beast</name>
+        <parent>ssl</parent>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/tool_getparam.c</path>
+            <start>
+              <line>1354</line>
+              <column>11</column>
+            </start>
+            <end>
+              <line>1354</line>
+              <column>44</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+      
+      <configurationOption>
+        <!-- Request a compressed response using one of the algorithms curl  supports, and save the uncompressed document. -->
+        <name>compressed</name>
+        <parent>root</parent>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/tool_getparam.c</path>
+            <start>
+              <line>581</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>581</line>
+              <column>35</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+
+      <configurationOption>
+        <name>tlsv</name>
+        <parent>root</parent>
+        <optional>False</optional>
+      </configurationOption>
+      
+        <configurationOption>
+          <!-- Tells curl to use at least TLS version 1.x when  negotiating  with  a  remote  TLS  server. -->
+          <name>tlsv1</name>
+          <parent>tlsv</parent>
+          <excludedOptions>
+            <options>tlsv1.0</options>
+            <options>tlsv1.1</options>
+            <options>tlsv1.2</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1016</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>1016</line>
+                <column>53</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+        
+        <configurationOption>
+          <!-- Forces curl to use TLS version 1.0 or later when connecting to a remote TLS server. -->
+          <name>tlsv1.0</name>
+          <parent>tlsv</parent>
+          <excludedOptions>
+            <options>tlsv1</options>
+            <options>tlsv1.1</options>
+            <options>tlsv1.2</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1020</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>1020</line>
+                <column>55</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+        
+        <configurationOption>
+          <!-- Forces curl to use TLS version 1.1 or later when connecting to a remote TLS server. -->
+          <name>tlsv1.1</name>
+          <parent>tlsv</parent>
+          <excludedOptions>
+            <options>tlsv1</options>
+            <options>tlsv1.0</options>
+            <options>tlsv1.2</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1024</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>1024</line>
+                <column>55</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+        
+        <configurationOption>
+          <!-- Forces curl to use TLS version 1.2 or later when connecting to a remote TLS server. -->
+          <name>tlsv1.2</name>
+          <parent>tlsv</parent>
+          <excludedOptions>
+            <options>tlsv1</options>
+            <options>tlsv1.0</options>
+            <options>tlsv1.1</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1028</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>1028</line>
+                <column>55</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+
+      <configurationOption>
+        <name>verbosity</name>
+        <parent>root</parent>
+        <optional>False</optional>
+      </configurationOption>
+        <configurationOption>
+          <!-- Makes curl verbose during the operation. -->
+          <name>verbose</name>
+          <parent>verbosity</parent>
+          <excludedOptions>
+            <options>trace</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>1703</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>1703</line>
+                <column>41</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+        
+        <configurationOption>
+          <!-- Enables a full trace dump of all incoming and outgoing data, including descriptive information, to the given output  file. -->
+          <name>trace</name>
+          <parent>verbosity</parent>
+          <excludedOptions>
+            <options>verbose</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/tool_getparam.c</path>
+              <start>
+                <line>526</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>526</line>
+                <column>39</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints>
+  </mixedConstraints>
+</vm>

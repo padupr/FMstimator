@@ -1,0 +1,359 @@
+<vm name="libvpx" root="" commit="v1.3.0">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>quality</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+    </configurationOption>
+    <configurationOption>
+      <name>bestQuality</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>quality</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>goodQuality</options>
+        <options>rtQuality</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>1159</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>1159</line>
+            <column>46</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>goodQuality</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>quality</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>bestQuality</options>
+        <options>rtQuality</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>1161</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>1161</line>
+            <column>46</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>rtQuality</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>quality</parent>
+      <impliedOptions />
+      <excludedOptions>
+        <options>bestQuality</options>
+        <options>goodQuality</options>
+      </excludedOptions>
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>1163</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>1163</line>
+            <column>42</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>autoAltRef</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>541</line>
+            <column>1</column>
+          </start>
+          <end>
+            <line>542</line>
+            <column>87</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>allowResize</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>True</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>1382</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>1382</line>
+            <column>60</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>lossless</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>560</line>
+            <column>1</column>
+          </start>
+          <end>
+            <line>560</line>
+            <column>81</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>frameparalleldecoding</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <optional>False</optional>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>562</line>
+            <column>1</column>
+          </start>
+          <end>
+            <line>563</line>
+            <column>79</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+    <configurationOption>
+      <name>passes</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <values>1;2</values>
+      <locations>
+        <sourceRange>
+          <path>vpxenc.c</path>
+          <start>
+            <line>1144</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>1144</line>
+            <column>45</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>threads</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>1</minValue>
+      <maxValue>4</maxValue>
+      <stepFunction>threads + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>1363</line>
+            <column>7</column>
+          </start>
+          <end>
+            <line>1363</line>
+            <column>52</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>tokenParts</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <minValue>0</minValue>
+      <maxValue>2</maxValue>
+      <stepFunction>tokenParts + 1</stepFunction>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>535</line>
+            <column>1</column>
+          </start>
+          <end>
+            <line>536</line>
+            <column>81</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>arnrMaxFrames</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <values>0;5;15</values>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>543</line>
+            <column>1</column>
+          </start>
+          <end>
+            <line>544</line>
+            <column>70</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+    <configurationOption>
+      <name>arnrStrength</name>
+      <outputString>
+      </outputString>
+      <prefix>
+      </prefix>
+      <postfix>
+      </postfix>
+      <parent>root</parent>
+      <impliedOptions />
+      <excludedOptions />
+      <values>0;3;6</values>
+      <locations>
+        <sourceRange category="necessary">
+          <path>vpxenc.c</path>
+          <start>
+            <line>545</line>
+            <column>1</column>
+          </start>
+          <end>
+            <line>546</line>
+            <column>67</column>
+          </end>
+        </sourceRange>
+      </locations>
+    </configurationOption>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints />
+</vm>

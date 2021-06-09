@@ -1,0 +1,80 @@
+---
+
+# Task list to create a default repo
+# Requires variables:
+#   - repo_name
+#   - file_before
+#   - file_after
+#   - fm_before
+#   - fm_after
+
+- name: Import base config
+  include_vars:
+    file: ../base_config.yml
+    name: base_config
+
+- name: "Set facts"
+  set_fact:
+    main_name: 'main.cpp'
+    fm_name1: 'FeatureModel_before.xml'
+    fm_name2: 'FeatureModel_after.xml'
+    prel: LD_PRELOAD={{base_config.libfaketime}} FAKETIME=
+    cfake_time1: "'2010-01-01 20:00:00'"
+    cfake_time2: "'2010-01-01 20:00:00'"
+    tag1: "before"
+    tag2: "after"
+
+####################################################################################
+
+- name: "Create repo {{ repo_name }}"
+  command: git init {{ repo_name }}
+  args:
+    creates: "{{ repo_name }}/.git"
+
+- name: "Copy {{ file_before }} to main.cpp"
+  copy: 
+    src: "{{ file_before }}"
+    dest: "{{ repo_name }}/{{ main_name }}"
+
+- name: "First commit"
+  shell: |
+    cd {{ repo_name }}
+    {{prel + cfake_time1}} git add {{ main_name }}
+    {{prel + cfake_time1}} git commit -m "Initial commit"
+    git tag -a {{ tag1 }} -m "Lorem ipsum"
+
+- name: "Copy {{ file_after }} to main.cpp"
+  copy:
+    src: "{{ file_after }}"
+    dest: "{{ repo_name }}/{{ main_name }}"
+
+- name: "Second commit"
+  shell: |
+    cd {{ repo_name }}
+    {{prel + cfake_time2}} git add {{ main_name }}
+    {{prel + cfake_time2}} git commit -m "Second commit"
+    git tag -a {{ tag2 }} -m "Lorem ipsum"
+
+####################################################################################
+
+- name: "Copy origina feature model"
+  copy:
+    src: "{{ fm_before }}"
+    dest: "{{ repo_name }}/{{ fm_name1 }}"
+
+- name: "Copy updated feature model"
+  copy:
+    src: "{{ fm_after }}"
+    dest: "{{ repo_name }}/{{ fm_name2 }}"
+
+####################################################################################
+
+- name: "Rename special git files/directories to make it storable in a repository"
+  shell: |
+    cd {{ repo_name }}
+    find . -name .git -exec mv -i '{}' '{}ted' \;
+    find . -name .gitmodules -exec mv -i '{}' 'gitmodules' \;
+    find . -name .gitattributes -exec mv -i '{}' 'gitattributes' \;
+    find . -name .gitignore -exec mv -i '{}' 'gitignore' \;
+  when: base_config.make_git_storable
+

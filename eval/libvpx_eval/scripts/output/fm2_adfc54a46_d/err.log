@@ -1,0 +1,202 @@
+INFO:__main__:Phase 1: Preparation
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/libvpx_eval/feature_models/feature_model_v1.2.0.xml
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/libvpx_eval/feature_models/feature_model_v1.3.0.xml
+INFO:root:Phase 2: Tracking
+INFO:__main__:Tracking changes b9ce43029298182668d4dcb0e0814189e4a63c2a -> adfc54a464ff82c7c2a39ae2f3df9d09415699a8
+INFO:__main__:Checking for changes in feature: allowResize
+INFO:__main__:Location is vpxenc.c:1856:13-1856:66
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Note: switching to 'b9ce43029298182668d4dcb0e0814189e4a63c2a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at b9ce43029 Update CHANGELOG for v1.2.0 release
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./vpx_ports/mem_ops_aligned.h:83:10: fatal error: 'vpx_config.h' file not found
+Previous HEAD position was b9ce43029 Update CHANGELOG for v1.2.0 release
+HEAD is now at adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+INFO:__main__:Successful node rediscovery
+INFO:__main__:Checking for changes in feature: arnrMaxFrames
+INFO:__main__:Location is vpxenc.c:1136:1-1137:62
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+HEAD is now at b9ce43029 Update CHANGELOG for v1.2.0 release
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./vpx_ports/mem_ops_aligned.h:83:10: fatal error: 'vpx_config.h' file not found
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Location missmatch: lines vpxenc.c:1115:1-1116:70, ast None
+INFO:__main__:Checking for changes in feature: arnrStrength
+INFO:__main__:Location is vpxenc.c:1138:1-1139:59
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+HEAD is now at b9ce43029 Update CHANGELOG for v1.2.0 release
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./vpx_ports/mem_ops_aligned.h:83:10: fatal error: 'vpx_config.h' file not found
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Location missmatch: lines vpxenc.c:1117:1-1118:67, ast None
+INFO:__main__:Checking for changes in feature: autoAltRef
+INFO:__main__:Location is vpxenc.c:1134:1-1135:79
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+HEAD is now at b9ce43029 Update CHANGELOG for v1.2.0 release
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./vpx_ports/mem_ops_aligned.h:83:10: fatal error: 'vpx_config.h' file not found
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Location missmatch: lines vpxenc.c:1113:1-1114:87, ast None
+INFO:__main__:Checking for changes in feature: passes
+INFO:__main__:Location is vpxenc.c:1609:13-1609:51
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+HEAD is now at b9ce43029 Update CHANGELOG for v1.2.0 release
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./vpx_ports/mem_ops_aligned.h:83:10: fatal error: 'vpx_config.h' file not found
+Previous HEAD position was b9ce43029 Update CHANGELOG for v1.2.0 release
+HEAD is now at adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+INFO:__main__:Successful node rediscovery
+INFO:__main__:Checking for changes in feature: bestQuality
+INFO:__main__:Location is vpxenc.c:1627:13-1627:52
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+HEAD is now at b9ce43029 Update CHANGELOG for v1.2.0 release
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./vpx_ports/mem_ops_aligned.h:83:10: fatal error: 'vpx_config.h' file not found
+Previous HEAD position was b9ce43029 Update CHANGELOG for v1.2.0 release
+HEAD is now at adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+INFO:__main__:Successful node rediscovery
+INFO:__main__:Checking for changes in feature: goodQuality
+INFO:__main__:Location is vpxenc.c:1629:13-1629:52
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+HEAD is now at b9ce43029 Update CHANGELOG for v1.2.0 release
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./vpx_ports/mem_ops_aligned.h:83:10: fatal error: 'vpx_config.h' file not found
+Previous HEAD position was b9ce43029 Update CHANGELOG for v1.2.0 release
+HEAD is now at adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+INFO:__main__:Successful node rediscovery
+INFO:__main__:Checking for changes in feature: rtQuality
+INFO:__main__:Location is vpxenc.c:1631:13-1631:48
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+HEAD is now at b9ce43029 Update CHANGELOG for v1.2.0 release
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./vpx_ports/mem_ops_aligned.h:83:10: fatal error: 'vpx_config.h' file not found
+Previous HEAD position was b9ce43029 Update CHANGELOG for v1.2.0 release
+HEAD is now at adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+INFO:__main__:Successful node rediscovery
+INFO:__main__:Checking for changes in feature: threads
+INFO:__main__:Location is vpxenc.c:1835:13-1835:58
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+HEAD is now at b9ce43029 Update CHANGELOG for v1.2.0 release
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: ./vpx_ports/mem_ops_aligned.h:83:10: fatal error: 'vpx_config.h' file not found
+Previous HEAD position was b9ce43029 Update CHANGELOG for v1.2.0 release
+HEAD is now at adfc54a46 Merge "Get rid of bashisms in armlink_adapter.sh"
+INFO:__main__:Successful node rediscovery
+INFO:__main__:Checking for changes in feature: tokenParts
+INFO:__main__:Location is vpxenc.c:1132:1-1133:81
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 2e88f2f2ec777259bda1714e72f1ecd2519bceb5 -> adfc54a464ff82c7c2a39ae2f3df9d09415699a8
+INFO:__main__:Checking for changes in feature: allowResize
+INFO:__main__:Location is vpxenc.c:1382:7-1382:60
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: arnrMaxFrames
+INFO:__main__:Location is vpxenc.c:543:1-544:70
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: arnrStrength
+INFO:__main__:Location is vpxenc.c:545:1-546:67
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: autoAltRef
+INFO:__main__:Location is vpxenc.c:541:1-542:87
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: frameparalleldecoding
+INFO:__main__:Location is vpxenc.c:562:1-563:79
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: lossless
+INFO:__main__:Location is vpxenc.c:560:1-560:81
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: passes
+INFO:__main__:Location is vpxenc.c:1144:7-1144:45
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: bestQuality
+INFO:__main__:Location is vpxenc.c:1159:7-1159:46
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: goodQuality
+INFO:__main__:Location is vpxenc.c:1161:7-1161:46
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: rtQuality
+INFO:__main__:Location is vpxenc.c:1163:7-1163:42
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: threads
+INFO:__main__:Location is vpxenc.c:1363:7-1363:52
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: tokenParts
+INFO:__main__:Location is vpxenc.c:535:1-536:81
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Phase 3: Merging
+INFO:__main__:Merging success
+INFO:__main__:Writing success: output/fm2_adfc54a46_d/fm_merged_adfc54a46.xml

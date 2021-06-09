@@ -1,0 +1,167 @@
+Start forward:
+          compressed || src/tool_getparam.c:472:9-472:35 || config->encoding = toggle;
+         dump-header || src/tool_getparam.c:1123:7-1123:44 || GetStr(&config->headerfile, nextarg);
+             http1.0 || src/tool_getparam.c:874:7-874:51 || config->httpversion = CURL_HTTP_VERSION_1_0;
+             include || src/tool_getparam.c:1273:7-1273:40 || config->include_headers = toggle;
+                ipv4 || src/tool_getparam.c:890:7-890:30 || config->ip_version = 4;
+                ipv6 || src/tool_getparam.c:894:7-894:30 || config->ip_version = 6;
+        no-keepalive || src/tool_getparam.c:769:9-769:52 || config->nokeepalive = (!toggle)?TRUE:FALSE;
+     ssl-allow-beast || src/tool_getparam.c:1202:11-1202:44 || config->ssl_allow_beast = toggle;
+               tlsv1 || src/tool_getparam.c:878:7-878:51 || config->ssl_version = CURL_SSLVERSION_TLSv1;
+               trace || src/tool_getparam.c:423:9-423:39 || config->tracetype = TRACE_BIN;
+             verbose || src/tool_getparam.c:1562:9-1562:41 || config->tracetype = TRACE_PLAIN;
+
+Got forward:
+          compressed || src/tool_getparam.c:584:9-584:35 || config->encoding = toggle;
+         dump-header || src/tool_getparam.c:1275:7-1275:44 || GetStr(&config->headerfile, nextarg);
+             http1.0 || src/tool_getparam.c:1000:9-1000:53 || config->httpversion = CURL_HTTP_VERSION_1_0;
+             include || src/tool_getparam.c:1416:7-1416:40 || config->include_headers = toggle;
+                ipv4 || src/tool_getparam.c:1042:7-1042:30 || config->ip_version = 4;
+                ipv6 || src/tool_getparam.c:1046:7-1046:30 || config->ip_version = 6;
+        no-keepalive || src/tool_getparam.c:881:9-881:52 || config->nokeepalive = (!toggle)?TRUE:FALSE;
+     ssl-allow-beast || src/tool_getparam.c:1354:11-1354:44 || config->ssl_allow_beast = toggle;
+               tlsv1 || src/tool_getparam.c:1016:9-1016:53 || config->ssl_version = CURL_SSLVERSION_TLSv1;
+
+Start backward:
+          compressed || src/tool_getparam.c:581:9-581:35 || config->encoding = toggle;
+         dump-header || src/tool_getparam.c:1275:7-1275:44 || GetStr(&config->headerfile, nextarg);
+             http1.0 || src/tool_getparam.c:1000:9-1000:53 || config->httpversion = CURL_HTTP_VERSION_1_0;
+             http1.1 || src/tool_getparam.c:1004:9-1004:53 || config->httpversion = CURL_HTTP_VERSION_1_1;
+               http2 || src/tool_getparam.c:1008:9-1008:53 || config->httpversion = CURL_HTTP_VERSION_2_0;
+             include || src/tool_getparam.c:1421:7-1421:40 || config->include_headers = toggle;
+                ipv4 || src/tool_getparam.c:1042:7-1042:30 || config->ip_version = 4;
+                ipv6 || src/tool_getparam.c:1046:7-1046:30 || config->ip_version = 6;
+             no-alpn || src/tool_getparam.c:539:9-539:47 || config->noalpn = (!toggle)?TRUE:FALSE;
+        no-keepalive || src/tool_getparam.c:878:9-878:52 || config->nokeepalive = (!toggle)?TRUE:FALSE;
+              no-npn || src/tool_getparam.c:529:9-529:46 || config->nonpn = (!toggle)?TRUE:FALSE;
+        pinnedpubkey || src/tool_getparam.c:1363:9-1363:48 || GetStr(&config->pinnedpubkey, nextarg);
+             sasl-ir || src/tool_getparam.c:971:9-971:34 || config->sasl_ir = toggle;
+     ssl-allow-beast || src/tool_getparam.c:1354:11-1354:44 || config->ssl_allow_beast = toggle;
+               tlsv1 || src/tool_getparam.c:1016:9-1016:53 || config->ssl_version = CURL_SSLVERSION_TLSv1;
+             tlsv1.0 || src/tool_getparam.c:1020:9-1020:55 || config->ssl_version = CURL_SSLVERSION_TLSv1_0;
+             tlsv1.1 || src/tool_getparam.c:1024:9-1024:55 || config->ssl_version = CURL_SSLVERSION_TLSv1_1;
+             tlsv1.2 || src/tool_getparam.c:1028:9-1028:55 || config->ssl_version = CURL_SSLVERSION_TLSv1_2;
+               trace || src/tool_getparam.c:526:9-526:39 || global->tracetype = TRACE_BIN;
+             verbose || src/tool_getparam.c:1703:9-1703:41 || global->tracetype = TRACE_PLAIN;
+
+Got backward:
+          compressed || src/tool_getparam.c:584:9-584:35 || config->encoding = toggle;
+         dump-header || src/tool_getparam.c:1275:7-1275:44 || GetStr(&config->headerfile, nextarg);
+             http1.0 || src/tool_getparam.c:1000:9-1000:53 || config->httpversion = CURL_HTTP_VERSION_1_0;
+             http1.1 || src/tool_getparam.c:1004:9-1004:53 || config->httpversion = CURL_HTTP_VERSION_1_1;
+               http2 || src/tool_getparam.c:1008:9-1008:53 || config->httpversion = CURL_HTTP_VERSION_2_0;
+             include || src/tool_getparam.c:1416:7-1416:40 || config->include_headers = toggle;
+                ipv4 || src/tool_getparam.c:1042:7-1042:30 || config->ip_version = 4;
+                ipv6 || src/tool_getparam.c:1046:7-1046:30 || config->ip_version = 6;
+             no-alpn || src/tool_getparam.c:542:9-542:47 || config->noalpn = (!toggle)?TRUE:FALSE;
+        no-keepalive || src/tool_getparam.c:881:9-881:52 || config->nokeepalive = (!toggle)?TRUE:FALSE;
+              no-npn || src/tool_getparam.c:532:9-532:46 || config->nonpn = (!toggle)?TRUE:FALSE;
+             sasl-ir || src/tool_getparam.c:974:9-974:34 || config->sasl_ir = toggle;
+     ssl-allow-beast || src/tool_getparam.c:1354:11-1354:44 || config->ssl_allow_beast = toggle;
+               tlsv1 || src/tool_getparam.c:1016:9-1016:53 || config->ssl_version = CURL_SSLVERSION_TLSv1;
+             tlsv1.0 || src/tool_getparam.c:1020:9-1020:55 || config->ssl_version = CURL_SSLVERSION_TLSv1_0;
+             tlsv1.1 || src/tool_getparam.c:1024:9-1024:55 || config->ssl_version = CURL_SSLVERSION_TLSv1_1;
+             tlsv1.2 || src/tool_getparam.c:1028:9-1028:55 || config->ssl_version = CURL_SSLVERSION_TLSv1_2;
+               trace || src/tool_getparam.c:529:9-529:39 || global->tracetype = TRACE_BIN;
+             verbose || src/tool_getparam.c:1698:9-1698:41 || global->tracetype = TRACE_PLAIN;
+
+Model_before approximated: 
+- root
+|- http
+||- http1.0
+|- ipv
+||-<Group property>
+|||- ipv4
+|||- ipv6
+|- include
+|- dump-header
+|- no-keepalive
+|- ssl
+||- ssl-allow-beast
+|- compressed
+|- tlsv
+||- tlsv1
+|- verbosity
+||-<Group property>
+
+Model_after approximated: 
+- root
+|- http
+||-<Group property>
+|||- http1.0
+|||- http1.1
+|||- http2
+|- sasl-ir
+|- no-npn
+|- no-alpn
+|- ipv
+||-<Group property>
+|||- ipv4
+|||- ipv6
+|- include
+|- dump-header
+|- no-keepalive
+|- ssl
+||- ssl-allow-beast
+|- compressed
+|- tlsv
+||-<Group property>
+|||- tlsv1
+|||- tlsv1.0
+|||- tlsv1.1
+|||- tlsv1.2
+|- verbosity
+||-<Group property>
+|||- verbose
+|||- trace
+
+Merged model:
+- root
+|- http
+||-<Group property>
+|||- http1.0
+|||- http1.1
+|||- http2
+|- no-keepalive
+|- include
+|- verbosity
+||-<Group property>
+|||- verbose
+|||- trace
+|- tlsv
+||-<Group property>
+|||- tlsv1
+|||- tlsv1.0
+|||- tlsv1.1
+|||- tlsv1.2
+|- dump-header
+|- ipv
+||-<Group property>
+|||- ipv4
+|||- ipv6
+|- ssl
+||- ssl-allow-beast
+|- compressed
+|- no-npn
+|- sasl-ir
+|- no-alpn
+
+Stats:
+    Diffs backward      : 699
+    Diffs forward       : 2022
+    Features_backwards_end: 19
+    Features_backwards_start: 20
+    Features_forward_end: 9
+    Features_forward_start: 11
+    H1 a USES           : 568
+    H1 b SUCC           : 563
+    H1 c FAIL           : 5
+    H2 a USES           : 5
+    H2 b SUCC           : 2
+    H2 c FAIL           : 3
+    H3 a USES           : 5
+    H3 c FAIL           : 5
+    Merging_features    : 19
+    Merging_success     : True
+Latex: 2022 & 699 & ??? & 563 & 5 & 2 & 3 & 0 & 5
+

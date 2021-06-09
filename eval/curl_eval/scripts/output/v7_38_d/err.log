@@ -1,0 +1,198 @@
+INFO:__main__:Phase 1: Preparation
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/curl_eval/feature_models/fm_v7.30.xml
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/curl_eval/feature_models/fm_v7.40.xml
+INFO:root:Phase 2: Tracking
+INFO:__main__:Tracking changes 80d241046e404233537ff35efabb703a0668c7d5 -> 202aa9f7758636730299b86715d924f54468a908
+INFO:__main__:Checking for changes in feature: compressed
+INFO:__main__:Location is src/tool_getparam.c:472:9-472:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: dump-header
+INFO:__main__:Location is src/tool_getparam.c:1123:7-1123:44
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: http1.0
+INFO:__main__:Location is src/tool_getparam.c:874:7-874:51
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Note: switching to '80d241046e404233537ff35efabb703a0668c7d5'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 80d241046 RELEASE-NOTES: cleaned up for 7.30 (synced with 5c5e1a1cd20)
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: lib/curl_setup.h:125:10: fatal error: 'curl/curlbuild.h' file not found
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Location missmatch: lines src/tool_getparam.c:1000:9-1000:53, ast None
+INFO:__main__:Checking for changes in feature: include
+INFO:__main__:Location is src/tool_getparam.c:1273:7-1273:40
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: ipv4
+INFO:__main__:Location is src/tool_getparam.c:890:7-890:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: ipv6
+INFO:__main__:Location is src/tool_getparam.c:894:7-894:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: no-keepalive
+INFO:__main__:Location is src/tool_getparam.c:769:9-769:52
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: ssl-allow-beast
+INFO:__main__:Location is src/tool_getparam.c:1202:11-1202:44
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: tlsv1
+INFO:__main__:Location is src/tool_getparam.c:878:7-878:51
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+HEAD is now at 80d241046 RELEASE-NOTES: cleaned up for 7.30 (synced with 5c5e1a1cd20)
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: lib/curl_setup.h:125:10: fatal error: 'curl/curlbuild.h' file not found
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Location missmatch: lines src/tool_getparam.c:1016:9-1016:53, ast None
+INFO:__main__:Checking for changes in feature: trace
+INFO:__main__:Location is src/tool_getparam.c:423:9-423:39
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+HEAD is now at 80d241046 RELEASE-NOTES: cleaned up for 7.30 (synced with 5c5e1a1cd20)
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: lib/curl_setup.h:125:10: fatal error: 'curl/curlbuild.h' file not found
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost trace location src/tool_getparam.c:423:9-423:39 from 80d241046e404233537ff35efabb703a0668c7d5 by Daniel Stenberg to 202aa9f7758636730299b86715d924f54468a908 by Daniel Stenberg
+INFO:__main__:Checking for changes in feature: verbose
+INFO:__main__:Location is src/tool_getparam.c:1562:9-1562:41
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+HEAD is now at 80d241046 RELEASE-NOTES: cleaned up for 7.30 (synced with 5c5e1a1cd20)
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: lib/curl_setup.h:125:10: fatal error: 'curl/curlbuild.h' file not found
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost verbose location src/tool_getparam.c:1562:9-1562:41 from 80d241046e404233537ff35efabb703a0668c7d5 by Daniel Stenberg to 202aa9f7758636730299b86715d924f54468a908 by Daniel Stenberg
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 9ce2d7001939b795b45a8ce7700d1a3dcde0475d -> 202aa9f7758636730299b86715d924f54468a908
+INFO:__main__:Checking for changes in feature: compressed
+INFO:__main__:Location is src/tool_getparam.c:581:9-581:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: dump-header
+INFO:__main__:Location is src/tool_getparam.c:1275:7-1275:44
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: http1.0
+INFO:__main__:Location is src/tool_getparam.c:1000:9-1000:53
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: http1.1
+INFO:__main__:Location is src/tool_getparam.c:1004:9-1004:53
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: http2
+INFO:__main__:Location is src/tool_getparam.c:1008:9-1008:53
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: include
+INFO:__main__:Location is src/tool_getparam.c:1421:7-1421:40
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: ipv4
+INFO:__main__:Location is src/tool_getparam.c:1042:7-1042:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: ipv6
+INFO:__main__:Location is src/tool_getparam.c:1046:7-1046:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: no-alpn
+INFO:__main__:Location is src/tool_getparam.c:539:9-539:47
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: no-keepalive
+INFO:__main__:Location is src/tool_getparam.c:878:9-878:52
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: no-npn
+INFO:__main__:Location is src/tool_getparam.c:529:9-529:46
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: pinnedpubkey
+INFO:__main__:Location is src/tool_getparam.c:1363:9-1363:48
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 80d241046 RELEASE-NOTES: cleaned up for 7.30 (synced with 5c5e1a1cd20)
+HEAD is now at 9ce2d7001 RELEASE-NOTES: version 7.40.0
+WARNING:__main__:Clang ran into errors while parsing!
+WARNING:__main__:Clang diagnostic: lib/curl_setup.h:132:10: fatal error: 'curl/curlbuild.h' file not found
+WARNING:__main__:Could not find node
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost pinnedpubkey location src/tool_getparam.c:1363:9-1363:48 from 9ce2d7001939b795b45a8ce7700d1a3dcde0475d by Daniel Stenberg to 202aa9f7758636730299b86715d924f54468a908 by Daniel Stenberg
+INFO:__main__:Checking for changes in feature: sasl-ir
+INFO:__main__:Location is src/tool_getparam.c:971:9-971:34
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: ssl-allow-beast
+INFO:__main__:Location is src/tool_getparam.c:1354:11-1354:44
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: tlsv1
+INFO:__main__:Location is src/tool_getparam.c:1016:9-1016:53
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: tlsv1.0
+INFO:__main__:Location is src/tool_getparam.c:1020:9-1020:55
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: tlsv1.1
+INFO:__main__:Location is src/tool_getparam.c:1024:9-1024:55
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: tlsv1.2
+INFO:__main__:Location is src/tool_getparam.c:1028:9-1028:55
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: trace
+INFO:__main__:Location is src/tool_getparam.c:526:9-526:39
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: verbose
+INFO:__main__:Location is src/tool_getparam.c:1703:9-1703:41
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Phase 3: Merging
+INFO:__main__:Merging success
+INFO:__main__:Writing success: output/v7_38_d/fm_merged_curl-7_38_0.xml

@@ -1,0 +1,240 @@
+<vm name="grep" root="" commit="v2.20">
+  <binaryOptions>
+    <configurationOption>
+      <name>root</name>
+      <optional>False</optional>
+    </configurationOption>
+    
+      <configurationOption>
+        <name>type</name>
+        <parent>root</parent>
+        <optional>False</optional>
+      </configurationOption>
+      
+        <configurationOption>
+          <name>extended</name>
+          <parent>type</parent>
+          <excludedOptions>
+            <options>string</options>
+            <options>basic</options>
+            <options>pearl</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/grep.c</path>
+              <start>
+                <line>2010</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>2010</line>
+                <column>30</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>      
+
+        <configurationOption>
+          <name>string</name>
+          <parent>type</parent>
+          <excludedOptions>
+            <options>extended</options>
+            <options>basic</options>
+            <options>pearl</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/grep.c</path>
+              <start>
+                <line>2014</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>2014</line>
+                <column>30</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>      
+
+        <configurationOption>
+          <name>basic</name>
+          <parent>type</parent>
+          <excludedOptions>
+            <options>extended</options>
+            <options>string</options>
+            <options>pearl</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/grep.c</path>
+              <start>
+                <line>2022</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>2022</line>
+                <column>29</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>      
+
+        <configurationOption>
+          <name>pearl</name>
+          <parent>type</parent>
+          <excludedOptions>
+            <options>extended</options>
+            <options>string</options>
+            <options>basic</options>
+          </excludedOptions>
+          <optional>False</optional>
+          <locations>
+            <sourceRange category="necessary">
+              <path>src/grep.c</path>
+              <start>
+                <line>2018</line>
+                <column>9</column>
+              </start>
+              <end>
+                <line>2018</line>
+                <column>29</column>
+              </end>
+            </sourceRange>
+          </locations>
+        </configurationOption>
+
+      <configurationOption>
+        <name>ignore-case</name>
+        <parent>root</parent>
+        <excludedOptions></excludedOptions>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/grep.c</path>
+            <start>
+              <line>2112</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>2112</line>
+              <column>25</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+
+      <configurationOption>
+        <name>invert-match</name>
+        <parent>root</parent>
+        <excludedOptions></excludedOptions>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/grep.c</path>
+            <start>
+              <line>2163</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>2163</line>
+              <column>27</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+
+      <configurationOption>
+        <name>silent</name>
+        <parent>root</parent>
+        <excludedOptions>
+          <options>count</options>
+        </excludedOptions>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/grep.c</path>
+            <start>
+              <line>2146</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>2146</line>
+              <column>27</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+
+      <configurationOption>
+        <name>no-message</name>
+        <parent>root</parent>
+        <excludedOptions></excludedOptions>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/grep.c</path>
+            <start>
+              <line>2159</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>2159</line>
+              <column>29</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+
+      <configurationOption>
+        <name>line-buffered</name>
+        <parent>root</parent>
+        <excludedOptions></excludedOptions>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/grep.c</path>
+            <start>
+              <line>2242</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>2242</line>
+              <column>27</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+
+      <configurationOption>
+        <name>count</name>
+        <parent>root</parent>
+        <excludedOptions>
+          <options>silent</options>
+        </excludedOptions>
+        <optional>True</optional>
+        <locations>
+          <sourceRange category="necessary">
+            <path>src/grep.c</path>
+            <start>
+              <line>2063</line>
+              <column>9</column>
+            </start>
+            <end>
+              <line>2063</line>
+              <column>27</column>
+            </end>
+          </sourceRange>
+        </locations>
+      </configurationOption>
+  </binaryOptions>
+  <numericOptions>
+  </numericOptions>
+  <booleanConstraints />
+  <nonBooleanConstraints />
+  <mixedConstraints>
+  </mixedConstraints>
+</vm>

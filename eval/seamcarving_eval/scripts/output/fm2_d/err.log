@@ -1,0 +1,111 @@
+INFO:__main__:Phase 1: Preparation
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/seamcarving_eval/feature_models/fm1-e96e20d0.xml
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/seamcarving_eval/feature_models/fm5-17dffc1f.xml
+INFO:root:Phase 2: Tracking
+INFO:__main__:Tracking changes e96e20d02baee7ffb6cdf32503bce9c66ad7a49d -> 5f6e17ea1a6ea27e17a423e0a4e0da9060d315af
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is Main.cpp:30:7-30:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is Main.cpp:33:7-33:23
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: dualGradient
+INFO:__main__:Location is Main.cpp:46:9-46:39
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is Main.cpp:44:9-44:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is Main.cpp:27:7-27:22
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 17dffc1fc7e45000b449ecfcbed288bb22719c01 -> 5f6e17ea1a6ea27e17a423e0a4e0da9060d315af
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:39:13-39:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Note: switching to '17dffc1fc7e45000b449ecfcbed288bb22719c01'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 17dffc1 Add some comments
+Previous HEAD position was 17dffc1 Add some comments
+HEAD is now at 5f6e17e Implemented core functionality
+INFO:__main__:Successful node rediscovery
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:42:13-42:29
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 5f6e17e Implemented core functionality
+HEAD is now at 17dffc1 Add some comments
+Previous HEAD position was 17dffc1 Add some comments
+HEAD is now at 5f6e17e Implemented core functionality
+INFO:__main__:Successful node rediscovery
+WARNING:__main__:Location missmatch: lines main.cpp:23:8-23:24, ast main.cpp:36:7-36:23
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:53:17-53:43
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 5f6e17e Implemented core functionality
+HEAD is now at 17dffc1 Add some comments
+Previous HEAD position was 17dffc1 Add some comments
+HEAD is now at 5f6e17e Implemented core functionality
+INFO:__main__:Successful node rediscovery
+WARNING:__main__:Location missmatch: lines main.cpp:25:10-25:36, ast main.cpp:47:9-47:35
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:55:17-55:40
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 5f6e17e Implemented core functionality
+HEAD is now at 17dffc1 Add some comments
+Previous HEAD position was 17dffc1 Add some comments
+HEAD is now at 5f6e17e Implemented core functionality
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost sobel location main.cpp:55:17-55:40 from 17dffc1fc7e45000b449ecfcbed288bb22719c01 by Pascal Dupré to 5f6e17ea1a6ea27e17a423e0a4e0da9060d315af by Pascal Dupré
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:31:13-31:41
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 5f6e17e Implemented core functionality
+HEAD is now at 17dffc1 Add some comments
+Previous HEAD position was 17dffc1 Add some comments
+HEAD is now at 5f6e17e Implemented core functionality
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost logging location main.cpp:31:13-31:41 from 17dffc1fc7e45000b449ecfcbed288bb22719c01 by Pascal Dupré to 5f6e17ea1a6ea27e17a423e0a4e0da9060d315af by Pascal Dupré
+INFO:__main__:------------------------------------------------
+INFO:__main__:Phase 3: Merging
+INFO:__main__:Merging success
+INFO:__main__:Writing success: output/fm2_d/fm_merged_5f6e17ea.xml

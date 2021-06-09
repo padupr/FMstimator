@@ -1,0 +1,19 @@
+---
+- hosts: localhost
+  become: no
+  gather_facts: false
+  environment:
+    GIT_AUTHOR_NAME: "VaRA Tester"
+    GIT_AUTHOR_EMAIL: "vara-test@example.com"
+    GIT_COMMITTER_NAME: "VaRA Tester"
+    GIT_COMMITTER_EMAIL: "vara-test@example.com"
+  tasks:
+
+  - name: "Create repo"
+    include_tasks: tasks_for_test_repos_EXCLUDE.yaml
+    vars:
+      repo_name: "mapped_moved"
+      file_before: "raw_files/default.cpp"
+      file_after: "raw_files/main_mapped_moved.cpp"
+      fm_before: "raw_files/default.xml"
+      fm_after: "raw_files/fm_mapped_moved.xml"

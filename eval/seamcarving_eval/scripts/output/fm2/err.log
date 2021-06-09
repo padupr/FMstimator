@@ -1,0 +1,373 @@
+INFO:__main__:Phase 1: Preparation
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/seamcarving_eval/feature_models/fm1-e96e20d0.xml
+INFO:__main__:Reading fm: /home/pascal/Thesis_digital/eval/seamcarving_eval/feature_models/fm5-17dffc1f.xml
+INFO:root:Phase 2: Tracking
+INFO:__main__:Tracking changes e96e20d02baee7ffb6cdf32503bce9c66ad7a49d -> be9b9522c16fc132d065152063a716f2b10132a3
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is Main.cpp:30:7-30:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is Main.cpp:33:7-33:23
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: dualGradient
+INFO:__main__:Location is Main.cpp:46:9-46:39
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is Main.cpp:44:9-44:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is Main.cpp:27:7-27:22
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes be9b9522c16fc132d065152063a716f2b10132a3 -> 3af0cf2d054d6d31229a80533a0c95d70fbf7b05
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:30:7-30:24
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:33:7-33:23
+INFO:__main__:Checking for changes in feature: dualGradient
+INFO:__main__:Location is main.cpp:46:9-46:39
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:44:9-44:35
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:27:7-27:22
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 3af0cf2d054d6d31229a80533a0c95d70fbf7b05 -> 5f6e17ea1a6ea27e17a423e0a4e0da9060d315af
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:30:7-30:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:33:7-33:23
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: dualGradient
+INFO:__main__:Location is main.cpp:46:9-46:39
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:44:9-44:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:27:7-27:22
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 17dffc1fc7e45000b449ecfcbed288bb22719c01 -> 2fb8ee781310fb561ab5063d3ee1251ffc39b902
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:39:13-39:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:42:13-42:29
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:53:17-53:43
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:55:17-55:40
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:31:13-31:41
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 2fb8ee781310fb561ab5063d3ee1251ffc39b902 -> b1b47258fb7f782645a5792a7fab4c95b68042c6
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:39:13-39:30
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Note: switching to '2fb8ee781310fb561ab5063d3ee1251ffc39b902'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 2fb8ee7 Switched to 4 space indentation
+Previous HEAD position was 2fb8ee7 Switched to 4 space indentation
+HEAD is now at b1b4725 Removed dualGradient energy option
+INFO:__main__:Successful node rediscovery
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:42:13-42:29
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b1b4725 Removed dualGradient energy option
+HEAD is now at 2fb8ee7 Switched to 4 space indentation
+Previous HEAD position was 2fb8ee7 Switched to 4 space indentation
+HEAD is now at b1b4725 Removed dualGradient energy option
+INFO:__main__:Successful node rediscovery
+WARNING:__main__:Location missmatch: lines main.cpp:22:8-22:24, ast main.cpp:42:7-42:23
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:53:17-53:43
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b1b4725 Removed dualGradient energy option
+HEAD is now at 2fb8ee7 Switched to 4 space indentation
+Previous HEAD position was 2fb8ee7 Switched to 4 space indentation
+HEAD is now at b1b4725 Removed dualGradient energy option
+INFO:__main__:Successful node rediscovery
+WARNING:__main__:Location missmatch: lines main.cpp:24:10-24:36, ast main.cpp:53:9-53:35
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:55:17-55:40
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b1b4725 Removed dualGradient energy option
+HEAD is now at 2fb8ee7 Switched to 4 space indentation
+Previous HEAD position was 2fb8ee7 Switched to 4 space indentation
+HEAD is now at b1b4725 Removed dualGradient energy option
+INFO:__main__:Successful node rediscovery
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:31:13-31:41
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Successful recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b1b4725 Removed dualGradient energy option
+HEAD is now at 2fb8ee7 Switched to 4 space indentation
+Previous HEAD position was 2fb8ee7 Switched to 4 space indentation
+HEAD is now at b1b4725 Removed dualGradient energy option
+INFO:__main__:Successful node rediscovery
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes b1b47258fb7f782645a5792a7fab4c95b68042c6 -> 4a485baecb0bf2ea55ce867eaa324c7a35ef5482
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:39:7-39:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:22:8-22:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:24:10-24:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:55:9-55:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:31:7-31:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 4a485baecb0bf2ea55ce867eaa324c7a35ef5482 -> fbf2c148230ca8e33f2cfce5c4f4961de8e7a350
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:40:7-40:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:23:8-23:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:25:10-25:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:58:9-58:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:32:7-32:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes fbf2c148230ca8e33f2cfce5c4f4961de8e7a350 -> f1d98d9abb9a26f1c3c1582de3f7955e9e734577
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:40:7-40:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:23:8-23:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:25:10-25:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:58:9-58:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:32:7-32:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes f1d98d9abb9a26f1c3c1582de3f7955e9e734577 -> 87096a76017b66d365a35b6e0f1fbed1e0aee968
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:40:7-40:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:23:8-23:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:25:10-25:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:58:9-58:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:32:7-32:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 87096a76017b66d365a35b6e0f1fbed1e0aee968 -> 0d30cd9499b61ae4b8f637eaa3320b258c729308
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:38:7-38:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:22:8-22:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:24:10-24:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:56:9-56:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: logging
+INFO:__main__:Location is main.cpp:30:7-30:35
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was b1b4725 Removed dualGradient energy option
+HEAD is now at 87096a7 Replaced binary logging option with logging levels
+Previous HEAD position was 87096a7 Replaced binary logging option with logging levels
+HEAD is now at 0d30cd9 Output image write result
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost logging location main.cpp:30:7-30:35 from 87096a76017b66d365a35b6e0f1fbed1e0aee968 by Pascal Dupré to 0d30cd9499b61ae4b8f637eaa3320b258c729308 by Pascal Dupré
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 0d30cd9499b61ae4b8f637eaa3320b258c729308 -> 103c787bdde3ce36e249f6638e004e1df924a4df
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:33:7-33:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:22:8-22:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:24:10-24:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:51:9-51:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 103c787bdde3ce36e249f6638e004e1df924a4df -> ae3704630dd355f799bb45166b0469c38b625c79
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:35:7-35:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:25:8-25:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:27:10-27:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:53:9-53:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes ae3704630dd355f799bb45166b0469c38b625c79 -> e3327fe5aa5ce9cb1cc5d9f830bbe216f969867c
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:34:7-34:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:24:8-24:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:26:10-26:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:52:9-52:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes e3327fe5aa5ce9cb1cc5d9f830bbe216f969867c -> 7916616b71bf7c0ef42d4342d9034467bf36625a
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:34:7-34:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:24:8-24:24
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:26:10-26:36
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking successful
+INFO:__main__:Checking for changes in feature: sobel
+INFO:__main__:Location is main.cpp:52:9-52:32
+INFO:__main__:Trying line tracking
+INFO:__main__:Line tracking failed
+INFO:__main__:Trying to recover from added lines
+INFO:__main__:Failed added lines recovery
+INFO:__main__:Try node rediscovery
+Previous HEAD position was 0d30cd9 Output image write result
+HEAD is now at e3327fe Implemented Sobel operator for energy calculation
+Previous HEAD position was e3327fe Implemented Sobel operator for energy calculation
+HEAD is now at 7916616 Adjust a bit to Google's coding style
+INFO:__main__:Failed node rediscovery
+WARNING:__main__:Lost sobel location main.cpp:52:9-52:32 from e3327fe5aa5ce9cb1cc5d9f830bbe216f969867c by Pascal Dupré to 7916616b71bf7c0ef42d4342d9034467bf36625a by Pascal Dupré
+INFO:__main__:------------------------------------------------
+INFO:__main__:Tracking changes 7916616b71bf7c0ef42d4342d9034467bf36625a -> 5f6e17ea1a6ea27e17a423e0a4e0da9060d315af
+INFO:__main__:Checking for changes in feature: horizontal
+INFO:__main__:Location is main.cpp:33:7-33:24
+INFO:__main__:Checking for changes in feature: vertical
+INFO:__main__:Location is main.cpp:23:8-23:24
+INFO:__main__:Checking for changes in feature: gradient
+INFO:__main__:Location is main.cpp:25:10-25:36
+INFO:__main__:------------------------------------------------
+INFO:__main__:Phase 3: Merging
+INFO:__main__:Merging success
+INFO:__main__:Writing success: output/fm2/fm_merged_5f6e17ea.xml

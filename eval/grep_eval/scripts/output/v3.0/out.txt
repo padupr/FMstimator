@@ -1,0 +1,93 @@
+Start forward:
+               count || src/grep.c:2063:9-2063:27 || count_matches = 1;
+         ignore-case || src/grep.c:2112:9-2112:25 || match_icase = 1;
+        invert-match || src/grep.c:2163:9-2163:27 || out_invert = true;
+       line-buffered || src/grep.c:2242:9-2242:27 || line_buffered = 1;
+          no-message || src/grep.c:2159:9-2159:29 || suppress_errors = 1;
+              silent || src/grep.c:2146:9-2146:27 || exit_on_match = 1;
+               basic || src/grep.c:2022:9-2022:29 || setmatcher ("grep");
+            extended || src/grep.c:2010:9-2010:30 || setmatcher ("egrep");
+               pearl || src/grep.c:2018:9-2018:29 || setmatcher ("perl");
+              string || src/grep.c:2014:9-2014:30 || setmatcher ("fgrep");
+
+Got forward:
+        invert-match || src/grep.c:2670:9-2670:27 || out_invert = true;
+
+Start backward:
+               count || src/grep.c:2599:9-2599:30 || count_matches = true;
+         ignore-case || src/grep.c:2664:9-2664:28 || match_icase = true;
+        invert-match || src/grep.c:2719:9-2719:27 || out_invert = true;
+       line-buffered || src/grep.c:2811:9-2811:30 || line_buffered = true;
+          no-message || src/grep.c:2715:9-2715:32 || suppress_errors = true;
+              silent || src/grep.c:2702:9-2702:30 || exit_on_match = true;
+               basic || src/grep.c:2557:9-2557:48 || matcher = setmatcher ("grep", matcher);
+            extended || src/grep.c:2545:9-2545:49 || matcher = setmatcher ("egrep", matcher);
+               pearl || src/grep.c:2553:9-2553:48 || matcher = setmatcher ("perl", matcher);
+              string || src/grep.c:2549:9-2549:49 || matcher = setmatcher ("fgrep", matcher);
+
+Got backward:
+               count || src/grep.c:2564:9-2564:30 || count_matches = true;
+         ignore-case || src/grep.c:2619:9-2619:28 || match_icase = true;
+        invert-match || src/grep.c:2670:9-2670:27 || out_invert = true;
+       line-buffered || src/grep.c:2759:9-2759:30 || line_buffered = true;
+          no-message || src/grep.c:2666:9-2666:32 || suppress_errors = true;
+              silent || src/grep.c:2653:9-2653:30 || exit_on_match = true;
+               basic || src/grep.c:2523:9-2523:48 || matcher = setmatcher ("grep", matcher);
+            extended || src/grep.c:2511:9-2511:49 || matcher = setmatcher ("egrep", matcher);
+               pearl || src/grep.c:2519:9-2519:48 || matcher = setmatcher ("perl", matcher);
+              string || src/grep.c:2515:9-2515:49 || matcher = setmatcher ("fgrep", matcher);
+
+Model_before approximated: 
+- root
+|- type
+||-<Group property>
+|- invert-match
+
+Model_after approximated: 
+- root
+|- type
+||-<Group property>
+|||- extended
+|||- string
+|||- basic
+|||- pearl
+|- ignore-case
+|- invert-match
+|- silent
+|- no-message
+|- line-buffered
+|- count
+
+Merged model:
+- root
+|- type
+||-<Group property>
+|||- extended
+|||- string
+|||- basic
+|||- pearl
+|- invert-match
+|- no-message
+|- line-buffered
+|- ignore-case
+|- count
+|- silent
+
+Stats:
+    Diffs backward      : 230
+    Diffs forward       : 444
+    Features_backwards_end: 10
+    Features_backwards_start: 10
+    Features_forward_end: 1
+    Features_forward_start: 10
+    H1 a USES           : 978
+    H1 b SUCC           : 969
+    H1 c FAIL           : 9
+    H2 a USES           : 9
+    H2 c FAIL           : 9
+    H3 a USES           : 9
+    H3 c FAIL           : 9
+    Merging_features    : 10
+    Merging_success     : True
+Latex: 444 & 230 & ??? & 969 & 9 & 0 & 9 & 0 & 9
+

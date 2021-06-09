@@ -1,0 +1,120 @@
+Start forward:
+         allowResize || vpxenc.c:1856:13-1856:66 || config->cfg.rc_resize_allowed = arg_parse_uint(&arg);
+       arnrMaxFrames || vpxenc.c:1136:1-1137:62 || static const arg_def_t arnr_maxframes = ARG_DEF(NULL, "arnr-maxframes", 1, "AltRef Max Frames");
+        arnrStrength || vpxenc.c:1138:1-1139:59 || static const arg_def_t arnr_strength = ARG_DEF(NULL, "arnr-strength", 1, "AltRef Strength");
+          autoAltRef || vpxenc.c:1134:1-1135:79 || static const arg_def_t auto_altref = ARG_DEF(NULL, "auto-alt-ref", 1, "Enable automatic alt reference frames");
+              passes || vpxenc.c:1609:13-1609:51 || global->passes = arg_parse_uint(&arg);
+         bestQuality || vpxenc.c:1627:13-1627:52 || global->deadline = VPX_DL_BEST_QUALITY;
+         goodQuality || vpxenc.c:1629:13-1629:52 || global->deadline = VPX_DL_GOOD_QUALITY;
+           rtQuality || vpxenc.c:1631:13-1631:48 || global->deadline = VPX_DL_REALTIME;
+             threads || vpxenc.c:1835:13-1835:58 || config->cfg.g_threads = arg_parse_uint(&arg);
+          tokenParts || vpxenc.c:1132:1-1133:81 || static const arg_def_t token_parts = ARG_DEF(NULL, "token-parts", 1, "Number of token partitions to use, log2");
+
+Got forward:
+         allowResize || vpxenc.c:1960:7-1960:60 || config->cfg.rc_resize_allowed = arg_parse_uint(&arg);
+       arnrMaxFrames || vpxenc.c:1114:1-1115:70 || static const arg_def_t arnr_maxframes = ARG_DEF(NULL, "arnr-maxframes", 1, "AltRef Max Frames");
+        arnrStrength || vpxenc.c:1116:1-1117:67 || static const arg_def_t arnr_strength = ARG_DEF(NULL, "arnr-strength", 1, "AltRef Strength");
+          autoAltRef || vpxenc.c:1112:1-1113:87 || static const arg_def_t auto_altref = ARG_DEF(NULL, "auto-alt-ref", 1, "Enable automatic alt reference frames");
+              passes || vpxenc.c:1712:7-1712:45 || global->passes = arg_parse_uint(&arg);
+         bestQuality || vpxenc.c:1727:7-1727:46 || global->deadline = VPX_DL_BEST_QUALITY;
+         goodQuality || vpxenc.c:1729:7-1729:46 || global->deadline = VPX_DL_GOOD_QUALITY;
+           rtQuality || vpxenc.c:1731:7-1731:42 || global->deadline = VPX_DL_REALTIME;
+             threads || vpxenc.c:1941:7-1941:52 || config->cfg.g_threads = arg_parse_uint(&arg);
+          tokenParts || vpxenc.c:1106:1-1107:81 || static const arg_def_t token_parts = ARG_DEF(NULL, "token-parts", 1, "Number of token partitions to use, log2");
+
+Start backward:
+         allowResize || vpxenc.c:1382:7-1382:60 || config->cfg.rc_resize_allowed = arg_parse_uint(&arg);
+       arnrMaxFrames || vpxenc.c:543:1-544:70 || static const arg_def_t arnr_maxframes = ARG_DEF(NULL, "arnr-maxframes", 1, "AltRef Max Frames");
+        arnrStrength || vpxenc.c:545:1-546:67 || static const arg_def_t arnr_strength = ARG_DEF(NULL, "arnr-strength", 1, "AltRef Strength");
+          autoAltRef || vpxenc.c:541:1-542:87 || static const arg_def_t auto_altref = ARG_DEF(NULL, "auto-alt-ref", 1, "Enable automatic alt reference frames");
+frameparalleldecoding || vpxenc.c:562:1-563:79 || static const arg_def_t frame_parallel_decoding  = ARG_DEF( NULL, "frame-parallel", 1, "Enable frame parallel decodability features");
+            lossless || vpxenc.c:560:1-560:81 || static const arg_def_t lossless = ARG_DEF(NULL, "lossless", 1, "Lossless mode");
+              passes || vpxenc.c:1144:7-1144:45 || global->passes = arg_parse_uint(&arg);
+         bestQuality || vpxenc.c:1159:7-1159:46 || global->deadline = VPX_DL_BEST_QUALITY;
+         goodQuality || vpxenc.c:1161:7-1161:46 || global->deadline = VPX_DL_GOOD_QUALITY;
+           rtQuality || vpxenc.c:1163:7-1163:42 || global->deadline = VPX_DL_REALTIME;
+             threads || vpxenc.c:1363:7-1363:52 || config->cfg.g_threads = arg_parse_uint(&arg);
+          tokenParts || vpxenc.c:535:1-536:81 || static const arg_def_t token_parts = ARG_DEF(NULL, "token-parts", 1, "Number of token partitions to use, log2");
+
+Got backward:
+         allowResize || vpxenc.c:1960:7-1960:60 || config->cfg.rc_resize_allowed = arg_parse_uint(&arg);
+       arnrMaxFrames || vpxenc.c:1114:1-1115:70 || static const arg_def_t arnr_maxframes = ARG_DEF(NULL, "arnr-maxframes", 1, "AltRef Max Frames");
+        arnrStrength || vpxenc.c:1116:1-1117:67 || static const arg_def_t arnr_strength = ARG_DEF(NULL, "arnr-strength", 1, "AltRef Strength");
+          autoAltRef || vpxenc.c:1112:1-1113:87 || static const arg_def_t auto_altref = ARG_DEF(NULL, "auto-alt-ref", 1, "Enable automatic alt reference frames");
+frameparalleldecoding || vpxenc.c:1133:1-1134:79 || static const arg_def_t frame_parallel_decoding  = ARG_DEF( NULL, "frame-parallel", 1, "Enable frame parallel decodability features");
+            lossless || vpxenc.c:1131:1-1131:81 || static const arg_def_t lossless = ARG_DEF(NULL, "lossless", 1, "Lossless mode");
+              passes || vpxenc.c:1712:7-1712:45 || global->passes = arg_parse_uint(&arg);
+         bestQuality || vpxenc.c:1727:7-1727:46 || global->deadline = VPX_DL_BEST_QUALITY;
+         goodQuality || vpxenc.c:1729:7-1729:46 || global->deadline = VPX_DL_GOOD_QUALITY;
+           rtQuality || vpxenc.c:1731:7-1731:42 || global->deadline = VPX_DL_REALTIME;
+             threads || vpxenc.c:1941:7-1941:52 || config->cfg.g_threads = arg_parse_uint(&arg);
+          tokenParts || vpxenc.c:1106:1-1107:81 || static const arg_def_t token_parts = ARG_DEF(NULL, "token-parts", 1, "Number of token partitions to use, log2");
+
+Model_before approximated: 
+- root
+|- quality
+||-<Group property>
+|||- bestQuality
+|||- goodQuality
+|||- rtQuality
+|- autoAltRef
+|- allowResize
+|- passes
+|- threads
+|- tokenParts
+|- arnrMaxFrames
+|- arnrStrength
+
+Model_after approximated: 
+- root
+|- quality
+||-<Group property>
+|||- bestQuality
+|||- goodQuality
+|||- rtQuality
+|- autoAltRef
+|- allowResize
+|- lossless
+|- frameparalleldecoding
+|- passes
+|- threads
+|- tokenParts
+|- arnrMaxFrames
+|- arnrStrength
+
+Merged model:
+- root
+|- passes
+|- allowResize
+|- arnrStrength
+|- autoAltRef
+|- quality
+||-<Group property>
+|||- goodQuality
+|||- bestQuality
+|||- rtQuality
+|- arnrMaxFrames
+|- threads
+|- tokenParts
+|- frameparalleldecoding
+|- lossless
+
+Stats:
+    Diffs backward      : 304
+    Diffs forward       : 914
+    Features_backwards_end: 12
+    Features_backwards_start: 12
+    Features_forward_end: 10
+    Features_forward_start: 10
+    H1 a USES           : 274
+    H1 b SUCC           : 263
+    H1 c FAIL           : 11
+    H2 a USES           : 11
+    H2 b SUCC           : 11
+    H3 a USES           : 11
+    H3 b SUCC           : 7
+    H3 c FAIL           : 4
+    Merging_features    : 12
+    Merging_success     : True
+Latex: 914 & 304 & ??? & 263 & 11 & 11 & 0 & 7 & 4
+
